@@ -1,5 +1,4 @@
--- premake5.lua
-workspace "New Project"
+workspace "Tradeups"
    architecture "x64"
    configurations { "Debug", "Release", "Dist" }
    startproject "App"
@@ -11,7 +10,7 @@ workspace "New Project"
 OutputDir = "%{cfg.system}-%{cfg.architecture}/%{cfg.buildcfg}"
 
 group "Core"
-	include "Core/Build-Core.lua"
+	include "Tradeups-Core/Build-Core.lua"
 group ""
 
-include "App/Build-App.lua"
+include "Tradeups-App/Build-App.lua"
