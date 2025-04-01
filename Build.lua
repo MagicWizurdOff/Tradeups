@@ -1,7 +1,7 @@
 workspace "Tradeups"
    architecture "x64"
    configurations { "Debug", "Release", "Dist" }
-   startproject "App"
+   startproject "Tradeups-App"
 
    -- Workspace-wide build options for MSVC
    filter "system:windows"
